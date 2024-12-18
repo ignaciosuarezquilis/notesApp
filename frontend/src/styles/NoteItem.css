@@ -1,0 +1,57 @@
+/* NoteItem.css */
+.note-item {
+  background-color: #ffffff;
+  padding: 15px;  /* Reduje el padding para hacerlo más pequeño */
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;  /* Reducido el tamaño de fuente para las notas */
+}
+
+.note-item h3 {
+  font-size: 1.3rem;  /* Título un poco más pequeño */
+  margin-bottom: 8px;
+}
+
+.note-item p {
+  font-size: 0.95rem;  /* Tamaño de fuente más pequeño */
+  margin-bottom: 12px;
+}
+
+.categories {
+  margin-bottom: 10px;
+}
+
+/* Alinear botones en fila */
+.note-actions {
+  display: flex;
+  gap: 8px;  /* Espacio entre botones */
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 12px;  /* Reducido el tamaño de los botones */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 0.9rem;  /* Botones más pequeños */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.category-selection ul {
+  list-style-type: none;
+}
+
+.category-selection li {
+  display: flex;
+  align-items: center;
+}
+
+.category-selection input {
+  margin-right: 10px;
+}

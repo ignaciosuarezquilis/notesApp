@@ -1,0 +1,27 @@
+/* NotesFilter.css */
+button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    background-color: #007bff;  /* Azul por defecto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;  /* Cambio de color al pasar el ratón */
+    color: white;
+  }
+  
+  /* Estilos para los botones de filtro */
+  button.active-filter {
+    background-color: #28a745;  /* Verde cuando está seleccionado */
+    color: white;  /* Color de texto blanco para el botón seleccionado */
+  }
+  
+  button.active-filter:hover {
+    background-color: #218838;  /* Cambio a un verde más oscuro cuando se pasa el ratón */
+  }
+  

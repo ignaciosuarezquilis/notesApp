@@ -1,0 +1,60 @@
+/* Estilo general para la app */
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Estilo para el contenedor de los botones de navegación */
+  .nav-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los botones */
+    margin: 20px 0;
+  }
+  
+  /* Estilo para los botones de navegación */
+  .nav-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efecto de hover para los botones */
+  .nav-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .nav-button:focus {
+    outline: none;
+  }
+  
+  /* Estilos para el contenido de las rutas */
+  .route-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para el mensaje de carga */
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  
